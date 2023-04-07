@@ -1,0 +1,94 @@
+html{
+  margin-top: 90px;
+  background-color: #eef3f5fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 500px;
+  border-radius: 8px;
+}
+
+.content {
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+ }
+
+.content .header {
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+@media screen and (min-width: 1025px) {
+  .input-button {
+    display: none;
+  }
+} 
+
+.overview {
+  margin: 0 1rem 1rem;
+}
+
+.connectors {
+  padding-bottom: 1rem;
+}
+
+/* .connectors button {
+  background-color: #ffffff;
+  border: 1px solid #dfdfdf;
+} */
+
+.connectors button:focus {
+  background-color: #efefef;
+}
+
+.input {
+  padding-bottom: 1rem;
+}
+
+.input input {
+  font-size: 20px;
+  height: 2rem;
+  border-radius: 8px;
+}
+
+.input input:focus {
+  border-color: transparent;
+}
+
+#error span {
+  color: rgb(136, 52, 52);
+}
+
+#tabela-verdade table {
+  border-collapse: collapse;
+  color: #555555;
+  text-align: center;
+  margin: 10px 20px 20px;
+}
+
+#tabela-verdade table span {
+  padding: 20px;
+}
+
+#tabela-verdade table, th, td{
+  border: 1px solid black !important;
+}
+
+th{
+  font-weight: bold !important;
+}
+
+button{
+  font-weight: bolder !important;
+}
